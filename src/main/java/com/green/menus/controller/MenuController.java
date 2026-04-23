@@ -28,7 +28,14 @@ public class MenuController {
 		
 		return "menus/list";
 	}
-}
+	
+	@RequestMapping("/Menus/WritwForm")
+	public String wirteForm() {
+		return "/menus/writeForm"; //
+	}
+
+	
+} //
 
 
 

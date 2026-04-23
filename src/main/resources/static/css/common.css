@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
-* {margin:0; padding:0;
-	   box_sizing: border_box;
+	* {
+	   margin:0; padding:0;
+	   box-sizing: border_box;
 	   }
 	   
     main {
@@ -11,17 +12,20 @@
 	
 	table, th, td {
 		border: 1px solid black;
-		border_collapse: collapse;
+		border-collapse: collapse;
 		}
 
 	ul, li {
-		list_style: none;
+		list-style: none;
 		}
 	
 	a {
 		text-decoration: none; color: #333
 		}
-	a:hover {text_dacoration: underline;}
+	a:hover {
+		text-decoration: underline;
+		}
 	
 	h1, h2, h3 { 
-		margin:15px 10px;}
+		margin:15px 10px;
+		}

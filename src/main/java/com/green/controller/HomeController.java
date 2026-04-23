@@ -10,6 +10,7 @@ public class HomeController {
 	// http://localhost:8080
 	@RequestMapping("/")
 	public  String  home( ) {
+		System.out.println("첫페이지");
 		return  "home";   // jsp 파일을 찾는다
 	}
 	
@@ -19,7 +20,7 @@ public class HomeController {
 	public  String  test() {
 		return  "<h2>Test 입니다</h2>";
 	}
-	
+
 	
 }
 
