@@ -23,6 +23,7 @@
 	<main>
 	  <h2>메뉴 목록 ${msg} </h2>
 	  <table>
+	  
 	  	<tr>
 	  	  <td>Menu_id</td>
 	  	  <td>Menu_name</td>
@@ -30,6 +31,7 @@
 	  	  <td>삭제</td>
 	  	  <td>수정</td>
 	  	</tr>
+	  	
 	  	<tr>
 	  	  <td colspan="5">
 	  	    [<a href="/Menus/WriteForm">메뉴등록</a>]&nbsp;&nbsp;&nbsp;
@@ -46,6 +48,7 @@
 	  	  <td> <a href="">수정</a> </td>
 	  	</tr>
 	  	</c:forEach>
+	  	
 	  </table>
 	
 	</main>

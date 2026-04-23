@@ -31,7 +31,7 @@ public class MenuController {
 	
 	@RequestMapping("/Menus/WritwForm")
 	public String wirteForm() {
-		return "/menus/writeForm"; //
+		return "/menus/writeForm"; 
 	}
 
 	
