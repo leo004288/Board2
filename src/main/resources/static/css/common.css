@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {margin:0; padding:0;
+	   box_sizing: border_box;
+	   }
+	   
+    main {
+	   width:80%;
+	   margin: 0 auto;;
+	   }
+	
+	table, th, td {
+		border: 1px solid black;
+		border_collapse: collapse;
+		}
+
+	ul, li {
+		list_style: none;
+		}
+	
+	a {
+		text-decoration: none; color: #333
+		}
+	a:hover {text_dacoration: underline;}
+	
+	h1, h2, h3 { 
+		margin:15px 10px;}
