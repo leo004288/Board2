@@ -32,7 +32,8 @@
 	     <tr>
 	       <td colspan="2">
 	         <input type="submit" value="추가">
-	         <input type="submit" value="목록">
+	         <input type="button" value="목록" onclick="location.href='/Menus/List'">
+	         
 	       </td>
 	     </tr>
 	   </table>
