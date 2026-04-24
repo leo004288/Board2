@@ -2,7 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<!-- namespace : com.green.menus.mapper.MenuMapper 인터페이스 위치 -->
+<!-- 
+Windows -> Preferences -> xml -> xml(Wild Web Developer) -> 체크
+namespace : com.green.menus.mapper.MenuMapper 인터페이스 위치 
+-->
 <mapper namespace="com.green.menus.mapper.MenuMapper">
 	
 	<select id="getMenuList"
@@ -14,6 +17,11 @@
 	 	
 	</select>
     
+    <insert id="insertMenu">
     
+    INSERT INTO MENUS ( MENU_ID, MENU_NAME, MENU_SEQ)
+     VALUES ( #{menu_id}, #{menu_name}, #{menu_seq} )
+    
+    </insert>
     
 </mapper>

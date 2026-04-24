@@ -11,7 +11,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public  String  home( ) {
 		System.out.println("첫페이지");
-		return  "home";   // jsp 파일을 찾는다
+		return  "home";        // jsp 파일을 찾는다
 	}
 	
 	// http://localhost:8080/test
