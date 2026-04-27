@@ -12,6 +12,14 @@ public interface MenuMapper {
 	List<MenuDTO> getMenuList();
 
 	void insertMenu(MenuDTO menuDTO);
+
+	void deleteMenu(MenuDTO menuDTO);
+
+	MenuDTO getMenu(MenuDTO menuDTO);
+
+	void updateMenu(MenuDTO menuDTO);
+
+	
 	
 }
 
