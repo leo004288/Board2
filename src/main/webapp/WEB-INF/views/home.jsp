@@ -19,6 +19,7 @@
     <h2>Home</h2>
     <a href="/test">Test</a>
     <div><a href="/Menus/WriteForm">새 메뉴추가</a></div>
+    <div><a href="/Menus/WriteForm2">새 메뉴추가2</a></div>
     <div><a href="/Menus/List">메뉴목록</a></div>  
   </main>
   

@@ -111,6 +111,21 @@ public class MenuController {
 		return "redirect:/Menus/List";
 	}
 	
+	// 메뉴이름으로만 추가하기
+	@RequestMapping ("/Menus/WriteForm2")
+	public String writeform2() {
+		return "menus/write2";
+	}
+	
+//	/Menus/Write<ㅁ;2
+	@RequestMapping ("/Menus/Write2")
+	public String write2(MenuDTO menuDTO) {
+		
+		menuMapper.insertMenu2(menuDTO);
+		
+		return "redirect:/Menus/List";
+	}
+	
 	
 } //
 
